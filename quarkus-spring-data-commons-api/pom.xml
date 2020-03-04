@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-spring-data-api</artifactId>
+        <version>2.1.Alpha1-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-spring-data-commons-api</artifactId>
+    <version>2.1.Alpha1-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>${maven-shade-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createSourcesJar>true</createSourcesJar>
+                            <artifactSet>
+                                <includes>
+                                    <include>org.springframework.data:spring-data-commons</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>org.springframework.data:spring-data-commons</artifact>
+                                    <includes>
+                                        <!-- Used in Quarkus -->
+                                        <include>org/springframework/data/repository/Repository**</include>
+                                        <include>org/springframework/data/util/Streamable**</include>
+                                        <include>org/springframework/data/domain/Page**</include>
+                                        <include>org/springframework/data/domain/PageRequest**</include>
+                                        <include>org/springframework/data/domain/Pageable**</include>
+                                        <include>org/springframework/data/domain/Slice**</include>
+                                        <include>org/springframework/data/domain/Sort**</include>
+                                        <include>org/springframework/data/domain/Auditable**</include>
+                                        <include>org/springframework/data/domain/Persistable**</include>
+                                        <include>org/springframework/data/repository/CrudRepository**</include>
+                                        <include>org/springframework/data/repository/PagingAndSortingRepository**</include>
+                                        <include>org/springframework/data/repository/NoRepositoryBean**</include>
+                                        <include>org/springframework/data/repository/query/QueryByExampleExecutor**</include>
+                                        <include>org/springframework/data/repository/query/Param**</include>
+                                        <!-- Transitive dependencies -->
+                                        <include>org/springframework/data/annotation/QueryAnnotation**</include>
+                                        <include>org/springframework/data/domain/Example**</include>
+                                        <include>org/springframework/data/domain/AbstractPageRequest**</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    
+</project>
