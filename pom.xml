@@ -27,9 +27,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/quarkusio/quarkus-spring-data-jpa-api</url>
-    <connection>scm:git:git@github.com:quarkusio/quarkus-spring-data-jpa-api.git</connection>
-    <developerConnection>scm:git:git@github.com:quarkusio/quarkus-spring-data-jpa-api.git</developerConnection>
+    <url>https://github.com/quarkusio/quarkus-spring-data-api</url>
+    <connection>scm:git:git@github.com:quarkusio/quarkus-spring-data-api.git</connection>
+    <developerConnection>scm:git:git@github.com:quarkusio/quarkus-spring-data-api.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
