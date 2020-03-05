@@ -51,6 +51,7 @@
                                         <include>org/springframework/data/domain/Pageable**</include>
                                         <include>org/springframework/data/domain/Slice**</include>
                                         <include>org/springframework/data/domain/Sort**</include>
+                                        <include>org/springframework/data/domain/Chunk**</include>
                                         <include>org/springframework/data/domain/Auditable**</include>
                                         <include>org/springframework/data/domain/Persistable**</include>
                                         <include>org/springframework/data/repository/CrudRepository**</include>
