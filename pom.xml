@@ -42,12 +42,14 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <spring-data.version>2.1.9.RELEASE</spring-data.version>
+    <spring-boot.version>2.1.13.RELEASE</spring-boot.version>
   </properties>
 
   <packaging>pom</packaging>
   <modules>
     <module>quarkus-spring-data-jpa-api</module>
     <module>quarkus-spring-data-commons-api</module>
+    <module>quarkus-spring-boot-orm-api</module>
   </modules>
 
   <dependencyManagement>
