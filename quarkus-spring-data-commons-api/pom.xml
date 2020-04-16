@@ -49,6 +49,7 @@
                                         <include>org/springframework/data/domain/Page**</include>
                                         <include>org/springframework/data/domain/PageRequest**</include>
                                         <include>org/springframework/data/domain/Pageable**</include>
+                                        <include>org/springframework/data/domain/Unpaged**</include>
                                         <include>org/springframework/data/domain/Slice**</include>
                                         <include>org/springframework/data/domain/Sort**</include>
                                         <include>org/springframework/data/domain/Chunk**</include>
