@@ -60,6 +60,7 @@
                                         <include>org/springframework/data/repository/NoRepositoryBean**</include>
                                         <include>org/springframework/data/repository/query/QueryByExampleExecutor**</include>
                                         <include>org/springframework/data/repository/query/Param**</include>
+                                        <include>org/springframework/data/annotation/Id**</include>
                                         <!-- Transitive dependencies -->
                                         <include>org/springframework/data/annotation/QueryAnnotation**</include>
                                         <include>org/springframework/data/domain/Example**</include>
