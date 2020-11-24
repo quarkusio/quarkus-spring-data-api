@@ -42,12 +42,14 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <spring-data.version>2.1.9.RELEASE</spring-data.version>
+    <spring-data-rest.version>3.1.9.RELEASE</spring-data-rest.version>
   </properties>
 
   <packaging>pom</packaging>
   <modules>
     <module>quarkus-spring-data-jpa-api</module>
     <module>quarkus-spring-data-commons-api</module>
+    <module>quarkus-spring-data-rest-api</module>
   </modules>
 
   <dependencyManagement>
@@ -61,6 +63,11 @@
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-commons</artifactId>
       <version>${spring-data.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-rest-core</artifactId>
+      <version>${spring-data-rest.version}</version>
     </dependency>
   </dependencies>
   </dependencyManagement>
