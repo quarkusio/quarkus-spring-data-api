@@ -5,13 +5,13 @@
     <parent>
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-spring-data-api</artifactId>
-        <version>2.1.SP2-SNAPSHOT</version>
+        <version>3.0.Final-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
     <groupId>io.quarkus</groupId>
     <artifactId>quarkus-spring-data-commons-api</artifactId>
-    <version>2.1.SP2-SNAPSHOT</version>
+    <version>3.0.Final-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -56,6 +56,8 @@
                                         <include>org/springframework/data/domain/Auditable**</include>
                                         <include>org/springframework/data/domain/Persistable**</include>
                                         <include>org/springframework/data/repository/CrudRepository**</include>
+                                        <include>org/springframework/data/repository/ListCrudRepository**</include>
+                                        <include>org/springframework/data/repository/ListPagingAndSortingRepository**</include>
                                         <include>org/springframework/data/repository/PagingAndSortingRepository**</include>
                                         <include>org/springframework/data/repository/NoRepositoryBean**</include>
                                         <include>org/springframework/data/repository/query/QueryByExampleExecutor**</include>
@@ -66,6 +68,8 @@
                                         <include>org/springframework/data/domain/Example**</include>
                                         <include>org/springframework/data/domain/AbstractPageRequest**</include>
                                         <include>org/springframework/data/domain/Chunk**</include>
+                                        <include>org/springframework/data/repository/query/FluentQuery**</include>
+                                        <include>org/springframework/data/util/StreamUtils**</include>
                                     </includes>
                                 </filter>
                             </filters>
