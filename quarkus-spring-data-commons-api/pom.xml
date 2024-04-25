@@ -46,6 +46,7 @@
                                         <!-- Used in Quarkus -->
                                         <include>org/springframework/data/repository/Repository**</include>
                                         <include>org/springframework/data/util/Streamable**</include>
+                                        <include>org/springframework/data/util/StreamUtils**</include>
                                         <include>org/springframework/data/domain/Page**</include>
                                         <include>org/springframework/data/domain/PageRequest**</include>
                                         <include>org/springframework/data/domain/Pageable**</include>
@@ -56,9 +57,12 @@
                                         <include>org/springframework/data/domain/Auditable**</include>
                                         <include>org/springframework/data/domain/Persistable**</include>
                                         <include>org/springframework/data/repository/CrudRepository**</include>
+                                        <include>org/springframework/data/repository/ListCrudRepository**</include>
+                                        <include>org/springframework/data/repository/ListPagingAndSortingRepository**</include>
                                         <include>org/springframework/data/repository/PagingAndSortingRepository**</include>
                                         <include>org/springframework/data/repository/NoRepositoryBean**</include>
                                         <include>org/springframework/data/repository/query/QueryByExampleExecutor**</include>
+                                        <include>org/springframework/data/repository/query/FluentQuery**</include>
                                         <include>org/springframework/data/repository/query/Param**</include>
                                         <include>org/springframework/data/annotation/Id**</include>
                                         <!-- Transitive dependencies -->
