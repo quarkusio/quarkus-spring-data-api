@@ -47,6 +47,8 @@
                                         <include>org/springframework/data/repository/Repository**</include>
                                         <include>org/springframework/data/util/Streamable**</include>
                                         <include>org/springframework/data/util/StreamUtils**</include>
+                                        <include>org/springframework/data/util/MethodInvocationRecorder**</include>
+                                        <include>org/springframework/data/util/Optionals**</include>
                                         <include>org/springframework/data/domain/Page**</include>
                                         <include>org/springframework/data/domain/PageRequest**</include>
                                         <include>org/springframework/data/domain/Pageable**</include>
