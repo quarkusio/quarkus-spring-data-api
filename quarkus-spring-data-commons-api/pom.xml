@@ -71,7 +71,9 @@
                                         <include>org/springframework/data/annotation/QueryAnnotation**</include>
                                         <include>org/springframework/data/domain/Example**</include>
                                         <include>org/springframework/data/domain/AbstractPageRequest**</include>
-                                        <include>org/springframework/data/domain/Chunk**</include>
+                                        <include>org/springframework/data/domain/Limit**</include>
+                                        <include>org/springframework/data/domain/OffsetScrollPosition**</include>
+                                        <include>org/springframework/data/domain/ScrollPosition**</include>
                                     </includes>
                                 </filter>
                             </filters>
