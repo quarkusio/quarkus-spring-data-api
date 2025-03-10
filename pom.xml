@@ -42,8 +42,8 @@
     <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <spring-data.version>3.2.5</spring-data.version>
-    <spring-data-rest.version>4.2.5</spring-data-rest.version>
+    <spring-data.version>3.4.3</spring-data.version>
+    <spring-data-rest.version>4.4.3</spring-data-rest.version>
   </properties>
 
   <packaging>pom</packaging>
