@@ -9,7 +9,7 @@
         <relativePath>../</relativePath>
     </parent>
 
-    <groupId>io.quarkus</groupId>
+    <name>Quarkus Spring Data Commons API</name>
     <artifactId>quarkus-spring-data-commons-api</artifactId>
     <version>3.4.SP1-SNAPSHOT</version>
 
