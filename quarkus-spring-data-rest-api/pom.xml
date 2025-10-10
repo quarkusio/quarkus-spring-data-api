@@ -9,6 +9,7 @@
         <relativePath>../</relativePath>
     </parent>
 
+    <name>Quarkus Spring Data Rest API</name>
     <artifactId>quarkus-spring-data-rest-api</artifactId>
 
     <dependencies>
