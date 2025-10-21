@@ -41,7 +41,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <spring-data-rest.version>4.5.5</spring-data-rest.version>
-    <spring-data.version>3.5.4</spring-data.version>
+    <spring-data.version>3.5.5</spring-data.version>
   </properties>
 
   <packaging>pom</packaging>
