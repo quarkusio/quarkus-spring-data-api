@@ -4,7 +4,7 @@
 
   <groupId>io.quarkus</groupId>
   <artifactId>quarkus-spring-data-api</artifactId>
-  <version>3.4.SP2-SNAPSHOT</version>
+  <version>3.5</version>
 
   <name>Spring Data dependencies for Quarkus Spring Data JPA extension</name>
   <description>The minimum dependencies to reduce the footprint of Quarkus applications using the Spring Data JPA extension</description>
@@ -30,7 +30,7 @@
     <url>https://github.com/quarkusio/quarkus-spring-data-api</url>
     <connection>scm:git:git@github.com:quarkusio/quarkus-spring-data-api.git</connection>
     <developerConnection>scm:git:git@github.com:quarkusio/quarkus-spring-data-api.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>3.5</tag>
   </scm>
 
   <properties>

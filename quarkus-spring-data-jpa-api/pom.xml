@@ -5,13 +5,13 @@
     <parent>
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-spring-data-api</artifactId>
-        <version>3.4.SP2-SNAPSHOT</version>
+        <version>3.5</version>
         <relativePath>../</relativePath>
     </parent>
 
     <name>Quarkus Spring Data JPA API</name>
     <artifactId>quarkus-spring-data-jpa-api</artifactId>
-    <version>3.4.SP2-SNAPSHOT</version>
+    <version>3.5</version>
 
     <dependencies>
         <dependency>
