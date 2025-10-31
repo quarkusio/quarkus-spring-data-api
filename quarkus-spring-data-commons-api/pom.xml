@@ -59,6 +59,7 @@
                                         <include>org/springframework/data/domain/Chunk**</include>
                                         <include>org/springframework/data/domain/Auditable**</include>
                                         <include>org/springframework/data/domain/Persistable**</include>
+                                        <include>org/springframework/data/domain/KeysetScrollPosition**</include>
                                         <include>org/springframework/data/repository/CrudRepository**</include>
                                         <include>org/springframework/data/repository/ListCrudRepository**</include>
                                         <include>org/springframework/data/repository/ListPagingAndSortingRepository**</include>
