@@ -40,7 +40,7 @@
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <spring-data-rest.version>4.5.5</spring-data-rest.version>
+    <spring-data-rest.version>5.0.1</spring-data-rest.version>
     <spring-data.version>3.5.5</spring-data.version>
   </properties>
 
