@@ -4,7 +4,7 @@
 
   <groupId>io.quarkus</groupId>
   <artifactId>quarkus-spring-data-api</artifactId>
-  <version>3.5.SP1-SNAPSHOT</version>
+  <version>4.0-SNAPSHOT</version>
 
   <name>Spring Data dependencies for Quarkus Spring Data JPA extension</name>
   <description>The minimum dependencies to reduce the footprint of Quarkus applications using the Spring Data JPA extension</description>
@@ -40,8 +40,8 @@
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <spring-data-rest.version>4.5.5</spring-data-rest.version>
-    <spring-data.version>3.5.5</spring-data.version>
+    <spring-data-rest.version>5.0.1</spring-data-rest.version>
+    <spring-data.version>4.0.1</spring-data.version>
   </properties>
 
   <packaging>pom</packaging>
